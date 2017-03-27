@@ -13,7 +13,9 @@
   "keywords": [
     "ui",
     "headless",
-    "browser"
+    "browser",
+    "testing",
+    "pumlhorse"
   ],
   "author": "Matt Dickinson <matt@mdickin.com> (http://pumlhorse.com)",
   "license": "MIT",
