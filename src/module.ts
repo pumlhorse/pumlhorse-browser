@@ -119,13 +119,13 @@ function wait(duration: string | number, $browser: Zombie.IBrowser, $cancellatio
 
 /* DOM */
 
-function findFirst(selector: string, $browser: Zombie.IBrowser): ReadOnlyDom[] {
+function find(selector: string, $browser: Zombie.IBrowser): ReadOnlyDom[] {
     enforce(selector, 'selector').isString().isNotNull();
 
     return $browser.queryAll(selector).map(elem => new ReadOnlyDom(elem));
 }
 
-function find(selector: string, $browser: Zombie.IBrowser): ReadOnlyDom {
+function findFirst(selector: string, $browser: Zombie.IBrowser): ReadOnlyDom {
     enforce(selector, 'selector').isString().isNotNull();
 
     var elem = $browser.query(selector);
