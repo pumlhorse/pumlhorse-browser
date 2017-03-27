@@ -1,0 +1,33 @@
+{
+  "name": "pumlhorse-browser",
+  "version": "0.1.0",
+  "description": "Headless browser support for Pumlhorse",
+  "main": "app.js",
+  "scripts": {
+    "test": "jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pumlhorse/pumlhorse-browser.git"
+  },
+  "keywords": [
+    "ui",
+    "headless",
+    "browser"
+  ],
+  "author": "Matt Dickinson <matt@mdickin.com> (http://pumlhorse.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pumlhorse/pumlhorse-browser/issues"
+  },
+  "homepage": "https://github.com/pumlhorse/pumlhorse-browser#readme",
+  "dependencies": {
+    "underscore": "^1.8.3",
+    "zombie": "^5.0.5"
+  },
+  "devDependencies": {
+    "@types/node": "^7.0.8",
+    "pumlhorse": "^2.2.0",
+    "typescript": "^2.2.1"
+  }
+}
